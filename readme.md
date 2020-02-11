@@ -1,6 +1,6 @@
-Sphinx Search for Laravel 5 - Custom build with snippets support 
+Sphinx Search for Laravel 6 - Custom build with snippets support 
 =======================
-Simple Laravel 5 package for make queries to Sphinx Search.
+Simple Laravel 6 package for make queries to Sphinx Search.
 Inspired by scalia/sphinxsearch package for Laravel 4.
 
 This package was created to import to the site packagist.org and allow installation through Composer (https://getcomposer.org/).
@@ -13,7 +13,7 @@ Require this package in your composer.json:
 ```php
 	"require": {
         /*** Some others packages ***/
-		"sngrl/sphinxsearch": "dev-master",
+		"gatepavel/sphinxsearch": "dev-master",
 	},
 ```
 
@@ -23,7 +23,7 @@ Run in your console `composer update` command to pull down the latest version of
 Or just run this in console:
 
 ```php
-composer require sngrl/sphinxsearch:dev-master
+composer require gatepavel/sphinxsearch:dev-master
 ```
 
 After updating composer, add the ServiceProvider to the "providers" array in config/app.php:
